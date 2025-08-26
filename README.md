@@ -2,7 +2,7 @@
 This project is an IoT-based health monitoring and emergency alert system that integrates multiple sensors (pulse oximeter, accelerometer, GPS, temperature, heart rate) with OLED display, GSM module, and GPS module to monitor vital signs, detect falls, and send emergency alerts to predefined contacts.
 The system continuously monitors health parameters such as Heart Rate, SpO₂, Body Temperature, and Fall Detection. If abnormal values or emergencies are detected, it automatically sends an SMS alert with location details and places emergency calls to saved contacts.
 
-Features  
+# Features
 - **Vital Signs Monitoring**  
   - Heart Rate (BPM)  
   - Blood Oxygen Level (SpO₂ %)  
@@ -16,7 +16,7 @@ Features
 - **Auto-Restart & Retry Mechanism** after emergency events  
 
 ---
-Hardware Requirements  
+# Hardware Requirements  
 - **NodeMCU ESP8266** (Main controller)  
 - **MAX30100** Pulse Oximeter & Heart Rate sensor  
 - **MPU6050** Accelerometer + Gyroscope sensor  
@@ -27,7 +27,7 @@ Hardware Requirements
 - Jumper wires, Breadboard/PCB  
 
 ---
-Software Requirements  
+# Software Requirements  
 - **Arduino IDE**  
 - Install the following libraries:  
   - `Wire.h`  
@@ -38,7 +38,7 @@ Software Requirements
   - `MAX30100_PulseOximeter.h`  
 
 
-Pin Mapping
+# Pin Mapping
 | NodeMCU Pin  | Connected To       | Device                  |
 | ------------ | ------------------ | ----------------------- |
 | **D1 (SCL)** | SCL                | OLED, MPU6050, MAX30100 |
@@ -53,6 +53,4 @@ Pin Mapping
 | **Vin**      | VCC (5V Devices)   | GSM, GPS                |
 | **GND**      | GND (All modules)  | Common Ground           |
 
-
-● Contribution : 
-Feel free to fork this repository, submit issues, or create pull requests for improvements.
+● Contribution: Feel free to fork this repository, submit issues, or create pull requests for improvements.
