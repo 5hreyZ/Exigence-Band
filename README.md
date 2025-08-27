@@ -1,11 +1,13 @@
 #               IoT-Based Emergency Health Monitoring & Alert System
-This project is an IoT-based health monitoring and emergency alert system that integrates multiple sensors (pulse oximeter, accelerometer, GPS, temperature, heart rate) with OLED display, GSM module, and GPS module to monitor vital signs, detect falls, and send emergency alerts to predefined contacts.
-The system continuously monitors health parameters such as Heart Rate, SpO₂, Body Temperature, and Fall Detection. If abnormal values or emergencies are detected, it automatically sends an SMS alert with location details and places emergency calls to saved contacts.
 
 <p align="center">
   <img src="Final Showcase - I.png" alt="Image 1" width="45%"/>
   <img src="Final Showcase - II.png" alt="Image 2" width="45%"/>
 </p>
+
+This project is an IoT-based health monitoring and emergency alert system that integrates multiple sensors (pulse oximeter, accelerometer, GPS, temperature, heart rate) with OLED display, GSM module, and GPS module to monitor vital signs, detect falls, and send emergency alerts to predefined contacts.
+The system continuously monitors health parameters such as Heart Rate, SpO₂, Body Temperature, and Fall Detection. If abnormal values or emergencies are detected, it automatically sends an SMS alert with location details and places emergency calls to saved contacts.
+
 
 
 # Features
